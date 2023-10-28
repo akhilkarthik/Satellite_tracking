@@ -49,7 +49,7 @@ def track_and_plot_satellite(satellite_name, observer_location, duration_hours):
     plt.show()
 
 
-#track_and_plot_satellite("ISS (ZARYA)", ("1.5", "52.3"), 5)
+
 
 from gmplot import gmplot
 import ephem
