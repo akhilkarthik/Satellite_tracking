@@ -9,3 +9,8 @@ Satellite Name: IRNSS 1I
 
 After running the code we can check with the location given in the website 
 
+Libraries :
+
+gmplot
+ephem
+datetime
