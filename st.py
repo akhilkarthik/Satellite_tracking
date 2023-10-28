@@ -20,7 +20,7 @@ def track_satellite(satellite_name, observer_location, duration_hours):
 
         print(f"Satellite: {satellite_name} - Altitude: {satellite.alt}, Azimuth: {satellite.az}")
 
-# track_satellite("ISS (ZARYA)", ("1.5", "52.3"), 5)  # Track the ISS for 5 hours
+
 
 def track_and_plot_satellite(satellite_name, observer_location, duration_hours):
     observer = ephem.Observer()
@@ -90,4 +90,4 @@ def track_and_plot_satellite(satellite_name, observer_location, duration_hours):
     gmap.draw(f"satellite_path_{satellite_name}.html")
 
 # Example usage
-track_and_plot_satellite("ISS (ZARYA)", (52.3, 1.5), 5)
+track_and_plot_satellite("IRNSS 1I", (52.3, 1.5), 5)
