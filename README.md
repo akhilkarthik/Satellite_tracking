@@ -25,7 +25,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/satellite-tracker.git
+git clone https://github.com/akhilkarthik/Satellite_tracking.git
 Navigate to the Project Directory:
 
 bash
